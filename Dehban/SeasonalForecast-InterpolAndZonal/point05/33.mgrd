@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SAGA_METADATA>
+  <DATABASE></DATABASE>
+  <SOURCE></SOURCE>
+  <HISTORY saga-version="7.2.0">
+    <TOOL library="grid_gridding" id="1" name="Inverse Distance Weighted">
+      <OPTION type="table_field" id="FIELD" name="Attribute" index="36">m33</OPTION>
+      <OPTION type="choice" id="CV_METHOD" name="Cross Validation" index="0">none</OPTION>
+      <OPTION type="choice" id="TARGET_DEFINITION" name="Target Grid System" index="0">user defined</OPTION>
+      <OPTION type="double" id="TARGET_USER_SIZE" name="Cellsize">0.058828</OPTION>
+      <OPTION type="double" id="TARGET_USER_XMIN" name="Left">44.038775</OPTION>
+      <OPTION type="double" id="TARGET_USER_XMAX" name="Right">63.334445</OPTION>
+      <OPTION type="double" id="TARGET_USER_YMIN" name="Bottom">25.064150</OPTION>
+      <OPTION type="double" id="TARGET_USER_YMAX" name="Top">39.771215</OPTION>
+      <OPTION type="choice" id="TARGET_USER_FITS" name="Fit" index="0">nodes</OPTION>
+      <OPTION type="choice" id="SEARCH_RANGE" name="Search Range" index="1">global</OPTION>
+      <OPTION type="choice" id="SEARCH_POINTS_ALL" name="Number of Points" index="1">all points within search distance</OPTION>
+      <OPTION type="choice" id="DW_WEIGHTING" name="Weighting Function" index="1">inverse distance to a power</OPTION>
+      <OPTION type="double" id="DW_IDW_POWER" name="Inverse Distance Weighting Power">2.000000</OPTION>
+      <OPTION type="boolean" id="DW_IDW_OFFSET" name="Inverse Distance Offset">false</OPTION>
+      <INPUT type="shapes" id="POINTS" name="Points">
+        <FILE>point05.shp</FILE>
+      </INPUT>
+      <OUTPUT type="grid" id="TARGET_OUT_GRID" name="Target Grid">m33 [Inverse Distance Weighted]</OUTPUT>
+    </TOOL>
+  </HISTORY>
+  <FILE></FILE>
+  <DESCRIPTION></DESCRIPTION>
+  <PROJECTION>
+    <OGC_WKT>GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]]</OGC_WKT>
+    <PROJ4>+proj=longlat +a=6378137.000000 +b=6356752.314245 +no_defs</PROJ4>
+    <EPSG>-1</EPSG>
+  </PROJECTION>
+</SAGA_METADATA>

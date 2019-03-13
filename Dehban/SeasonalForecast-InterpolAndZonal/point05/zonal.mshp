@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SAGA_METADATA>
+  <DATABASE>
+    <FIELDS>
+      <FIELD TYPE="STRING">station</FIELD>
+      <FIELD TYPE="DOUBLE">X</FIELD>
+      <FIELD TYPE="DOUBLE">Y</FIELD>
+      <FIELD TYPE="DOUBLE">Longterm</FIELD>
+      <FIELD TYPE="DOUBLE">m1</FIELD>
+      <FIELD TYPE="DOUBLE">m2</FIELD>
+      <FIELD TYPE="DOUBLE">m3</FIELD>
+      <FIELD TYPE="DOUBLE">m4</FIELD>
+      <FIELD TYPE="DOUBLE">m5</FIELD>
+      <FIELD TYPE="DOUBLE">m6</FIELD>
+      <FIELD TYPE="DOUBLE">m7</FIELD>
+      <FIELD TYPE="DOUBLE">m8</FIELD>
+      <FIELD TYPE="DOUBLE">m9</FIELD>
+      <FIELD TYPE="DOUBLE">m10</FIELD>
+      <FIELD TYPE="DOUBLE">m11</FIELD>
+      <FIELD TYPE="DOUBLE">m12</FIELD>
+      <FIELD TYPE="DOUBLE">m13</FIELD>
+      <FIELD TYPE="DOUBLE">m14</FIELD>
+      <FIELD TYPE="DOUBLE">m15</FIELD>
+      <FIELD TYPE="DOUBLE">m16</FIELD>
+      <FIELD TYPE="DOUBLE">m17</FIELD>
+      <FIELD TYPE="DOUBLE">m18</FIELD>
+      <FIELD TYPE="DOUBLE">m19</FIELD>
+      <FIELD TYPE="DOUBLE">m20</FIELD>
+      <FIELD TYPE="DOUBLE">m21</FIELD>
+      <FIELD TYPE="DOUBLE">m22</FIELD>
+      <FIELD TYPE="DOUBLE">m23</FIELD>
+      <FIELD TYPE="DOUBLE">m24</FIELD>
+      <FIELD TYPE="DOUBLE">m25</FIELD>
+      <FIELD TYPE="DOUBLE">m26</FIELD>
+      <FIELD TYPE="DOUBLE">m27</FIELD>
+      <FIELD TYPE="DOUBLE">m28</FIELD>
+      <FIELD TYPE="DOUBLE">m29</FIELD>
+      <FIELD TYPE="DOUBLE">m30</FIELD>
+      <FIELD TYPE="DOUBLE">m31</FIELD>
+      <FIELD TYPE="DOUBLE">m32</FIELD>
+      <FIELD TYPE="DOUBLE">m33</FIELD>
+      <FIELD TYPE="DOUBLE">m34</FIELD>
+      <FIELD TYPE="DOUBLE">m35</FIELD>
+      <FIELD TYPE="DOUBLE">m36</FIELD>
+      <FIELD TYPE="DOUBLE">m37</FIELD>
+      <FIELD TYPE="DOUBLE">m38</FIELD>
+      <FIELD TYPE="DOUBLE">m39</FIELD>
+      <FIELD TYPE="DOUBLE">m40</FIELD>
+      <FIELD TYPE="DOUBLE">m41</FIELD>
+      <FIELD TYPE="DOUBLE">m42</FIELD>
+      <FIELD TYPE="DOUBLE">m43</FIELD>
+      <FIELD TYPE="DOUBLE">m44</FIELD>
+      <FIELD TYPE="DOUBLE">m45</FIELD>
+      <FIELD TYPE="DOUBLE">m46</FIELD>
+      <FIELD TYPE="DOUBLE">m47</FIELD>
+      <FIELD TYPE="DOUBLE">m48</FIELD>
+      <FIELD TYPE="DOUBLE">m49</FIELD>
+      <FIELD TYPE="DOUBLE">m50</FIELD>
+      <FIELD TYPE="DOUBLE">m51</FIELD>
+      <FIELD TYPE="DOUBLE">m52</FIELD>
+      <FIELD TYPE="DOUBLE">m53</FIELD>
+      <FIELD TYPE="DOUBLE">m54</FIELD>
+      <FIELD TYPE="DOUBLE">m55</FIELD>
+      <FIELD TYPE="DOUBLE">m56</FIELD>
+      <FIELD TYPE="DOUBLE">m57</FIELD>
+      <FIELD TYPE="DOUBLE">m58</FIELD>
+      <FIELD TYPE="DOUBLE">m59</FIELD>
+      <FIELD TYPE="DOUBLE">m60</FIELD>
+      <FIELD TYPE="DOUBLE">m61</FIELD>
+      <FIELD TYPE="DOUBLE">m62</FIELD>
+      <FIELD TYPE="DOUBLE">m63</FIELD>
+      <FIELD TYPE="DOUBLE">m64</FIELD>
+      <FIELD TYPE="DOUBLE">m65</FIELD>
+      <FIELD TYPE="DOUBLE">m66</FIELD>
+      <FIELD TYPE="DOUBLE">m67</FIELD>
+      <FIELD TYPE="DOUBLE">m68</FIELD>
+      <FIELD TYPE="DOUBLE">m69</FIELD>
+      <FIELD TYPE="DOUBLE">m70</FIELD>
+      <FIELD TYPE="DOUBLE">m71</FIELD>
+      <FIELD TYPE="DOUBLE">m72</FIELD>
+      <FIELD TYPE="DOUBLE">m73</FIELD>
+      <FIELD TYPE="DOUBLE">m74</FIELD>
+      <FIELD TYPE="DOUBLE">m75</FIELD>
+      <FIELD TYPE="DOUBLE">m76</FIELD>
+      <FIELD TYPE="DOUBLE">m77</FIELD>
+      <FIELD TYPE="DOUBLE">m78</FIELD>
+      <FIELD TYPE="DOUBLE">m79</FIELD>
+      <FIELD TYPE="DOUBLE">1</FIELD>
+      <FIELD TYPE="DOUBLE">2</FIELD>
+      <FIELD TYPE="DOUBLE">3</FIELD>
+      <FIELD TYPE="DOUBLE">4</FIELD>
+      <FIELD TYPE="DOUBLE">5</FIELD>
+      <FIELD TYPE="DOUBLE">6</FIELD>
+      <FIELD TYPE="DOUBLE">7</FIELD>
+      <FIELD TYPE="DOUBLE">8</FIELD>
+      <FIELD TYPE="DOUBLE">9</FIELD>
+      <FIELD TYPE="DOUBLE">10</FIELD>
+      <FIELD TYPE="DOUBLE">11</FIELD>
+      <FIELD TYPE="DOUBLE">12</FIELD>
+      <FIELD TYPE="DOUBLE">13</FIELD>
+      <FIELD TYPE="DOUBLE">14</FIELD>
+      <FIELD TYPE="DOUBLE">15</FIELD>
+      <FIELD TYPE="DOUBLE">16</FIELD>
+      <FIELD TYPE="DOUBLE">17</FIELD>
+      <FIELD TYPE="DOUBLE">18</FIELD>
+      <FIELD TYPE="DOUBLE">19</FIELD>
+      <FIELD TYPE="DOUBLE">20</FIELD>
+      <FIELD TYPE="DOUBLE">21</FIELD>
+      <FIELD TYPE="DOUBLE">22</FIELD>
+      <FIELD TYPE="DOUBLE">23</FIELD>
+      <FIELD TYPE="DOUBLE">24</FIELD>
+      <FIELD TYPE="DOUBLE">25</FIELD>
+      <FIELD TYPE="DOUBLE">26</FIELD>
+      <FIELD TYPE="DOUBLE">27</FIELD>
+      <FIELD TYPE="DOUBLE">28</FIELD>
+      <FIELD TYPE="DOUBLE">29</FIELD>
+      <FIELD TYPE="DOUBLE">30</FIELD>
+      <FIELD TYPE="DOUBLE">31</FIELD>
+      <FIELD TYPE="DOUBLE">32</FIELD>
+      <FIELD TYPE="DOUBLE">33</FIELD>
+      <FIELD TYPE="DOUBLE">34</FIELD>
+      <FIELD TYPE="DOUBLE">35</FIELD>
+      <FIELD TYPE="DOUBLE">36</FIELD>
+      <FIELD TYPE="DOUBLE">37</FIELD>
+      <FIELD TYPE="DOUBLE">38</FIELD>
+      <FIELD TYPE="DOUBLE">39</FIELD>
+      <FIELD TYPE="DOUBLE">40</FIELD>
+      <FIELD TYPE="DOUBLE">41</FIELD>
+      <FIELD TYPE="DOUBLE">42</FIELD>
+      <FIELD TYPE="DOUBLE">43</FIELD>
+      <FIELD TYPE="DOUBLE">44</FIELD>
+      <FIELD TYPE="DOUBLE">45</FIELD>
+      <FIELD TYPE="DOUBLE">46</FIELD>
+      <FIELD TYPE="DOUBLE">47</FIELD>
+      <FIELD TYPE="DOUBLE">48</FIELD>
+      <FIELD TYPE="DOUBLE">49</FIELD>
+      <FIELD TYPE="DOUBLE">50</FIELD>
+      <FIELD TYPE="DOUBLE">51</FIELD>
+      <FIELD TYPE="DOUBLE">52</FIELD>
+      <FIELD TYPE="DOUBLE">53</FIELD>
+      <FIELD TYPE="DOUBLE">54</FIELD>
+      <FIELD TYPE="DOUBLE">55</FIELD>
+      <FIELD TYPE="DOUBLE">56</FIELD>
+      <FIELD TYPE="DOUBLE">57</FIELD>
+      <FIELD TYPE="DOUBLE">58</FIELD>
+      <FIELD TYPE="DOUBLE">59</FIELD>
+      <FIELD TYPE="DOUBLE">60</FIELD>
+      <FIELD TYPE="DOUBLE">61</FIELD>
+      <FIELD TYPE="DOUBLE">62</FIELD>
+      <FIELD TYPE="DOUBLE">63</FIELD>
+      <FIELD TYPE="DOUBLE">64</FIELD>
+      <FIELD TYPE="DOUBLE">65</FIELD>
+      <FIELD TYPE="DOUBLE">66</FIELD>
+      <FIELD TYPE="DOUBLE">67</FIELD>
+      <FIELD TYPE="DOUBLE">68</FIELD>
+      <FIELD TYPE="DOUBLE">69</FIELD>
+      <FIELD TYPE="DOUBLE">70</FIELD>
+      <FIELD TYPE="DOUBLE">71</FIELD>
+      <FIELD TYPE="DOUBLE">72</FIELD>
+      <FIELD TYPE="DOUBLE">73</FIELD>
+      <FIELD TYPE="DOUBLE">74</FIELD>
+      <FIELD TYPE="DOUBLE">75</FIELD>
+      <FIELD TYPE="DOUBLE">76</FIELD>
+      <FIELD TYPE="DOUBLE">77</FIELD>
+      <FIELD TYPE="DOUBLE">78</FIELD>
+      <FIELD TYPE="DOUBLE">79</FIELD>
+    </FIELDS>
+  </DATABASE>
+  <SOURCE></SOURCE>
+  <HISTORY saga-version="7.2.0">
+    <TOOL library="shapes_grid" id="0" name="Add Grid Values to Points">
+      <OPTION type="choice" id="RESAMPLING" name="Resampling" index="1">Bilinear Interpolation</OPTION>
+      <INPUT type="shapes" id="SHAPES" name="Points">
+        <FILE>point05.shp</FILE>
+      </INPUT>
+      <INPUT_LIST type="grid_list" id="GRIDS" name="Grids">
+        <INPUT type="grid_list" id="GRIDS" name="Grids"/>
+        <INPUT type="grid_list" id="GRIDS" name="Grids"/>
+        <INPUT type="grid_list" id="GRIDS" name="Grids"/>
+        <INPUT type="grid_list" id="GRIDS" name="Grids"/>
+        <INPUT type="grid_list" id="GRIDS" name="Grids"/>
+        <INPUT type="grid_list" id="GRIDS" name="Grids"/>
+        <INPUT type="grid_list" id="GRIDS" name="Grids"/>
+        <INPUT type="grid_list" id="GRIDS" name="Grids"/>
+        <INPUT type="grid_list" id="GRIDS" name="Grids"/>
+        <INPUT type="grid_list" id="GRIDS" name="Grids"/>
+        <INPUT type="grid_list" id="GRIDS" name="Grids"/>
+        <INPUT type="grid_list" id="GRIDS" name="Grids"/>
+        <INPUT type="grid_list" id="GRIDS" name="Grids"/>
+        <INPUT type="grid_list" id="GRIDS" name="Grids"/>
+        <INPUT type="grid_list" id="GRIDS" name="Grids"/>
+        <INPUT type="grid_list" id="GRIDS" name="Grids"/>
+        <INPUT type="grid_list" id="GRIDS" name="Grids"/>
+        <INPUT type="grid_list" id="GRIDS" name="Grids"/>
+        <INPUT type="grid_list" id="GRIDS" name="Grids"/>
+        <INPUT type="grid_list" id="GRIDS" name="Grids"/>
+        <INPUT type="grid_list" id="GRIDS" name="Grids"/>
+        <INPUT type="grid_list" id="GRIDS" name="Grids"/>
+        <INPUT type="grid_list" id="GRIDS" name="Grids"/>
+        <INPUT type="grid_list" id="GRIDS" name="Grids"/>
+        <INPUT type="grid_list" id="GRIDS" name="Grids"/>
+        <INPUT type="grid_list" id="GRIDS" name="Grids"/>
+        <INPUT type="grid_list" id="GRIDS" name="Grids"/>
+        <INPUT type="grid_list" id="GRIDS" name="Grids"/>
+        <INPUT type="grid_list" id="GRIDS" name="Grids"/>
+        <INPUT type="grid_list" id="GRIDS" name="Grids"/>
+        <INPUT type="grid_list" id="GRIDS" name="Grids"/>
+        <INPUT type="grid_list" id="GRIDS" name="Grids"/>
+        <INPUT type="grid_list" id="GRIDS" name="Grids"/>
+        <INPUT type="grid_list" id="GRIDS" name="Grids"/>
+        <INPUT type="grid_list" id="GRIDS" name="Grids"/>
+        <INPUT type="grid_list" id="GRIDS" name="Grids"/>
+        <INPUT type="grid_list" id="GRIDS" name="Grids"/>
+        <INPUT type="grid_list" id="GRIDS" name="Grids"/>
+        <INPUT type="grid_list" id="GRIDS" name="Grids"/>
+        <INPUT type="grid_list" id="GRIDS" name="Grids"/>
+        <INPUT type="grid_list" id="GRIDS" name="Grids"/>
+        <INPUT type="grid_list" id="GRIDS" name="Grids"/>
+        <INPUT type="grid_list" id="GRIDS" name="Grids"/>
+        <INPUT type="grid_list" id="GRIDS" name="Grids"/>
+        <INPUT type="grid_list" id="GRIDS" name="Grids"/>
+        <INPUT type="grid_list" id="GRIDS" name="Grids"/>
+        <INPUT type="grid_list" id="GRIDS" name="Grids"/>
+        <INPUT type="grid_list" id="GRIDS" name="Grids"/>
+        <INPUT type="grid_list" id="GRIDS" name="Grids"/>
+        <INPUT type="grid_list" id="GRIDS" name="Grids"/>
+        <INPUT type="grid_list" id="GRIDS" name="Grids"/>
+        <INPUT type="grid_list" id="GRIDS" name="Grids"/>
+        <INPUT type="grid_list" id="GRIDS" name="Grids"/>
+        <INPUT type="grid_list" id="GRIDS" name="Grids"/>
+        <INPUT type="grid_list" id="GRIDS" name="Grids"/>
+        <INPUT type="grid_list" id="GRIDS" name="Grids"/>
+        <INPUT type="grid_list" id="GRIDS" name="Grids"/>
+        <INPUT type="grid_list" id="GRIDS" name="Grids"/>
+        <INPUT type="grid_list" id="GRIDS" name="Grids"/>
+        <INPUT type="grid_list" id="GRIDS" name="Grids"/>
+        <INPUT type="grid_list" id="GRIDS" name="Grids"/>
+        <INPUT type="grid_list" id="GRIDS" name="Grids"/>
+        <INPUT type="grid_list" id="GRIDS" name="Grids"/>
+        <INPUT type="grid_list" id="GRIDS" name="Grids"/>
+        <INPUT type="grid_list" id="GRIDS" name="Grids"/>
+        <INPUT type="grid_list" id="GRIDS" name="Grids"/>
+        <INPUT type="grid_list" id="GRIDS" name="Grids"/>
+        <INPUT type="grid_list" id="GRIDS" name="Grids"/>
+        <INPUT type="grid_list" id="GRIDS" name="Grids"/>
+        <INPUT type="grid_list" id="GRIDS" name="Grids"/>
+        <INPUT type="grid_list" id="GRIDS" name="Grids"/>
+        <INPUT type="grid_list" id="GRIDS" name="Grids"/>
+        <INPUT type="grid_list" id="GRIDS" name="Grids"/>
+        <INPUT type="grid_list" id="GRIDS" name="Grids"/>
+        <INPUT type="grid_list" id="GRIDS" name="Grids"/>
+        <INPUT type="grid_list" id="GRIDS" name="Grids"/>
+        <INPUT type="grid_list" id="GRIDS" name="Grids"/>
+        <INPUT type="grid_list" id="GRIDS" name="Grids"/>
+        <INPUT type="grid_list" id="GRIDS" name="Grids"/>
+      </INPUT_LIST>
+      <OUTPUT type="shapes" id="RESULT" name="Result">point05</OUTPUT>
+    </TOOL>
+  </HISTORY>
+  <FILE></FILE>
+  <DESCRIPTION></DESCRIPTION>
+  <PROJECTION>
+    <OGC_WKT>GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]]</OGC_WKT>
+    <PROJ4>+proj=longlat +a=6378137.000000 +b=6356752.314245 +no_defs</PROJ4>
+    <EPSG>-1</EPSG>
+  </PROJECTION>
+</SAGA_METADATA>

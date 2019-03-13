@@ -16,10 +16,13 @@ namespace InterPolateAndZonal
             Process cmd = new Process();
             cmd.StartInfo.WindowStyle = System.Diagnostics.ProcessWindowStyle.Hidden;
             cmd.StartInfo.CreateNoWindow = true;
-            cmd.StartInfo.FileName = Resource.Saga;
-            cmd.StartInfo.Arguments = " -f=s grid_gridding 1 " + _points + " " + _filed + " -TARGET_USER_SIZE " +
+            cmd.StartInfo.FileName = @"cmd.exe";
+            cmd.StartInfo.Arguments = @"/C" + Resource.Saga + " -f=s grid_gridding 1 " + "-POINTS " + _points + " -FIELD " + _filed + " -TARGET_USER_SIZE " +
                 _CellSize + " -TARGET_USER_XMIN " + _Left + " -TARGET_USER_XMAX " + _Right +
                 " -TARGET_USER_YMIN " + _Buttom + " -TARGET_USER_YMAX " + _Top + " -TARGET_OUT_GRID " + _out;
+            cmd.Start();
+            cmd.WaitForExit();
+            cmd.StartInfo.Arguments = @"/C" + "gdal_translate -of GTIFF -ot FLOAT32 " + _out.Substring(0, _out.Length - 4) + ".sdat " + _out.Substring(0, _out.Length - 4) + ".tif";
             cmd.Start();
             cmd.WaitForExit();
         }
@@ -29,18 +32,19 @@ namespace InterPolateAndZonal
             Process cmd = new Process();
             cmd.StartInfo.WindowStyle = ProcessWindowStyle.Hidden;
             cmd.StartInfo.CreateNoWindow = true;
-            cmd.StartInfo.FileName = Resource.Saga;
+            cmd.StartInfo.FileName = "cmd.exe";
 
-            cmd.StartInfo.Arguments = " -f=s shapes_grid 2 -GRIDS=" + _Grids + " -POLYGONS=" +
-                _ShapeFile + " -NAMING = 1 - METHOD = 3 - PARALLELIZED = 1 - RESULT = " + _Out +
-                " - COUNT = 0 - MIN = 0 - MAX = 1 - RANGE = 0 - SUM = 0 - MEAN = 1 - VAR = 0" + 
-                " - STDDEV = 0 - QUANTILE = 0";
+            cmd.StartInfo.Arguments = @"/C" + Resource.Saga + " -f=s shapes_grid 0 " + " -SHAPES=" +
+                _ShapeFile + " -GRIDS=" + _Grids + " -RESULT=" + _Out +
+                " -RESAMPLING=1";
+            Console.WriteLine(cmd.StartInfo.Arguments);
             cmd.Start();
             cmd.WaitForExit();
 
-            cmd.StartInfo.Arguments = " -f=s io_table 0 -TABLE=" + _Out + " -SEPARATOR=2 -FILENAME=" + Path.GetFileNameWithoutExtension(_Out) + ".csv";
+            cmd.StartInfo.Arguments = @"/C" + Resource.Saga + " -f=s io_table 0 -TABLE=" + _Out + " -SEPARATOR=2 -FILENAME=" + _Out.Substring(0,_Out.Length-4) + ".csv";
             cmd.Start();
             cmd.WaitForExit();
         }
+
     }
 }
